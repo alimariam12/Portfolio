@@ -4,38 +4,38 @@
   margin: 0;
 }
 
-.about-me img{
-float: left;
-margin: 1em;
+.about-me img {
+  float: left;
+  margin: 1em;
 }
 
 
 .page-header1 {
-    padding: 20px;
-    font-family:'David Libre', serif;
-    background-color: #807070;
-    color: #ffffff;
-    font-size: 48px;
-    width: 95%;
-    height: 10%;
-  }
-
-  body {
-    background-image: url(https://cdn.wallpapersafari.com/74/6/fqM0zF.png);
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-  }
-
-.about-me{
- background-color: #807070;
- width: 95%;
+  padding: 20px;
+  font-family: 'David Libre', serif;
+  background-color: #807070;
+  color: #ffffff;
+  font-size: 48px;
+  width: 95%;
+  height: 10%;
 }
 
-.page-header1{
-    font-size: 48px;
+body {
+  background-image: url(https://cdn.wallpapersafari.com/74/6/fqM0zF.png);
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-me {
+  background-color: #807070;
+  width: 95%;
+}
+
+.page-header1 {
+  font-size: 48px;
 }
 
 
@@ -44,6 +44,7 @@ margin: 1em;
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: #d9dcd6;
 }
@@ -58,12 +59,15 @@ body {
 }
 
 
-.sunflower, .babypic {
+.sunflower,
+.babypic {
   float: left;
   width: 33%;
   margin: 2em;
 }
-.inthecar, .beach {
+
+.inthecar,
+.beach {
   float: right;
   width: 33%;
   margin: 2em;
@@ -71,12 +75,13 @@ body {
 
 .page-header3 {
   padding: 10px;
-  font-family:'David Libre', serif;
+  font-family: 'David Libre', serif;
   color: #ffffff;
   font-size: 48px;
   width: 95%;
   height: 10%;
 }
+
 .footer {
   position: fixed;
   left: 0;
@@ -86,8 +91,8 @@ body {
   color: white;
   text-align: center;
 }
+
 .navbar-nav {
   margin-left: 65em;
   background-color: #807070;
 }
-
