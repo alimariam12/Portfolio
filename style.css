@@ -7,13 +7,14 @@
 .about-me img {
   float: left;
   margin: 1em;
+  color: #5a5a5a;
 }
 
 
 .page-header1 {
   padding: 20px;
   font-family: 'David Libre', serif;
-  background-color: #807070;
+
   color: #ffffff;
   font-size: 48px;
   width: 95%;
@@ -21,7 +22,7 @@
 }
 
 body {
-  background-image: url(https://cdn.wallpapersafari.com/74/6/fqM0zF.png);
+  background-image: url(https://www.pngkit.com/png/full/63-639197_fundal-adobe-peach-petals-festival-flowers-fall-falling.png);
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -29,10 +30,7 @@ body {
   background-position: center;
 }
 
-.about-me {
-  background-color: #807070;
-  width: 95%;
-}
+
 
 .page-header1 {
   font-size: 48px;
@@ -83,7 +81,7 @@ body {
 }
 
 .footer {
-  position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
@@ -94,5 +92,20 @@ body {
 
 .navbar-nav {
   margin-left: 65em;
-  background-color: #807070;
+  background: #807070;
+}
+
+.container {
+  background: rgba(162, 142, 167, 0.8);
+  color: #808080;
+  font-size: 18px;
+
+}
+
+.about-me {
+  padding: 30px;
+}
+
+#navbar {
+  background: #808080;
 }
