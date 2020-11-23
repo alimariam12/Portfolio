@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'David Libre', serif;
+}
+
 .about-me img {
   float: left;
   margin: 1em;
@@ -14,7 +18,6 @@
 .page-header1 {
   padding: 20px;
   font-family: 'David Libre', serif;
-
   color: #ffffff;
   font-size: 48px;
   width: 95%;
@@ -30,45 +33,11 @@ body {
   background-position: center;
 }
 
-
-
-.page-header1 {
-  font-size: 48px;
-}
-
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: #d9dcd6;
-}
-
-
-
 .page-header2 {
   padding: 10px;
   font-family: 'David Libre', serif;
   background-color: #632d2d;
   color: #ffffff;
-}
-
-
-.sunflower,
-.babypic {
-  float: left;
-  width: 33%;
-  margin: 2em;
-}
-
-.inthecar,
-.beach {
-  float: right;
-  width: 33%;
-  margin: 2em;
 }
 
 .page-header3 {
@@ -81,11 +50,10 @@ body {
 }
 
 .footer {
-
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #FFF0F5;
   color: white;
   text-align: center;
 }
@@ -97,7 +65,7 @@ body {
 
 .container {
   background: rgba(162, 142, 167, 0.8);
-  color: #808080;
+  color: #f7ecec;
   font-size: 18px;
 
 }
@@ -107,5 +75,9 @@ body {
 }
 
 #navbar {
-  background: #808080;
+  background-color: #FFF0F5;
+}
+
+footer {
+  background-color: #FFF0F5;
 }
