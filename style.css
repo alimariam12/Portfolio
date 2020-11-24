@@ -4,25 +4,6 @@
   margin: 0;
 }
 
-body {
-  font-family: 'David Libre', serif;
-}
-
-.about-me img {
-  float: left;
-  margin: 1em;
-  color: #5a5a5a;
-}
-
-
-.page-header1 {
-  padding: 20px;
-  font-family: 'David Libre', serif;
-  color: #ffffff;
-  font-size: 48px;
-  width: 95%;
-  height: 10%;
-}
 
 body {
   background-image: url(https://www.pngkit.com/png/full/63-639197_fundal-adobe-peach-petals-festival-flowers-fall-falling.png);
@@ -31,6 +12,16 @@ body {
   margin-bottom: 25px;
   background-size: cover;
   background-position: center;
+}
+
+/* Page header on all three HTMLs*/
+.page-header1 {
+  padding: 20px;
+  font-family: 'David Libre', serif;
+  color: #ffffff;
+  font-size: 48px;
+  width: 95%;
+  height: 10%;
 }
 
 .page-header2 {
@@ -49,12 +40,21 @@ body {
   height: 10%;
 }
 
+/* End on page-headers */
 
 
+/* navbar */
 .navbar-nav {
   margin-left: 65em;
   background: #807070;
 }
+
+#navbar {
+  background-color: #FFF0F5;
+
+}
+
+/* End of Navbar */
 
 .container {
   background: rgba(162, 142, 167, 0.8);
@@ -63,18 +63,20 @@ body {
 
 }
 
+
+/* about me */
 .about-me {
   padding: 30px;
 }
 
-#navbar {
-  background-color: #FFF0F5;
-
+.about-me img {
+  float: left;
+  margin: 1em;
+  color: #5a5a5a;
 }
 
-footer {
-  background-color: #FFF0F5;
-}
+/* End of About me */
+
 
 #socials {
   float: right;
@@ -86,6 +88,22 @@ footer {
   height: 10%;
 }
 
+#social img {
+  height: 60px;
+  width: auto;
+}
+
+.letsConnect {
+  float: right;
+  padding: 20px;
+  font-family: 'David Libre', serif;
+  color: #ffffff;
+  font-size: 48px;
+  width: 95%;
+  height: 10%;
+  margin-bottom: 60px;
+}
+
 footer {
   left: 0;
   bottom: 0;
@@ -95,7 +113,9 @@ footer {
   text-align: center;
 }
 
-#social img {
-  height: 60px;
-  width: auto;
+.card {
+  margin-right: 30px;
+  margin-top: 30px;
+  float: left;
+  justify-content: center;
 }
