@@ -49,14 +49,7 @@ body {
   height: 10%;
 }
 
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFF0F5;
-  color: white;
-  text-align: center;
-}
+
 
 .navbar-nav {
   margin-left: 65em;
@@ -76,8 +69,33 @@ body {
 
 #navbar {
   background-color: #FFF0F5;
+
 }
 
 footer {
   background-color: #FFF0F5;
+}
+
+#socials {
+  float: right;
+  padding: 20px;
+  font-family: 'David Libre', serif;
+  color: #ffffff;
+  font-size: 48px;
+  width: 95%;
+  height: 10%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF0F5;
+  color: white;
+  text-align: center;
+}
+
+#social img {
+  height: 60px;
+  width: auto;
 }
